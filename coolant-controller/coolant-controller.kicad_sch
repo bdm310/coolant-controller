@@ -2508,6 +2508,236 @@
 				)
 			)
 		)
+		(symbol "Power_Management:AUIPS1052G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AUIPS1052G"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/auips1051.pdf?fileId=5546d462533600a4015355a4710712fc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Channel Intelligent Power Low Side Switch, 39V, 2.8A, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dual low side switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AUIPS1052G_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AUIPS1052G_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54) hide
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AUIPS1052G_2_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54) hide
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -4986,6 +5216,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Management:AUIPS1052G")
+		(at 262.89 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "446dbc92-718c-4060-a21a-12b3f9516b61")
+		(property "Reference" "U4"
+			(at 266.7 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTS4310GXUMA1"
+			(at 266.7 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Channel Intelligent Power Low Side Switch, 39V, 2.8A, SOIC-8"
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a2159abb-95bd-43ca-8357-67cdfc2c029d")
+		)
+		(pin "7"
+			(uuid "662e8be5-7be6-47a4-9576-ed429a7c0c7e")
+		)
+		(pin "8"
+			(uuid "608874c9-216d-4c1d-ad2d-a2a61afa6500")
+		)
+		(pin "2"
+			(uuid "103a2d60-41b2-4a39-a72f-bff8c4902f93")
+		)
+		(pin "1"
+			(uuid "820e0b53-d57f-487c-bb82-d9b8e6df6302")
+		)
+		(pin "4"
+			(uuid "bd83f033-c7af-4563-9c31-c8c87f67609b")
+		)
+		(pin "5"
+			(uuid "9f8a046c-ca93-47b3-8ccf-578b3b7bc8e2")
+		)
+		(pin "6"
+			(uuid "6c76d65b-1da2-4950-a3b8-a2a2d0fb8463")
+		)
+		(instances
+			(project "coolant-controller"
+				(path "/8ad82ed4-301a-4666-924a-a0067ee03a92"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 149.86 54.61 0)
 		(unit 1)
@@ -5393,6 +5712,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Management:AUIPS1052G")
+		(at 218.44 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aa2ada7-7de2-4a21-ac97-3f0f70c3923d")
+		(property "Reference" "U3"
+			(at 222.25 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTS4310GXUMA1"
+			(at 222.25 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 218.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Channel Intelligent Power Low Side Switch, 39V, 2.8A, SOIC-8"
+			(at 218.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a2159abb-95bd-43ca-8357-67cdfc2c029c")
+		)
+		(pin "7"
+			(uuid "2d7ad1eb-29b5-4559-8a04-50600d4ca98a")
+		)
+		(pin "8"
+			(uuid "197f4d61-1157-4282-a374-485d20784818")
+		)
+		(pin "2"
+			(uuid "dd097756-aa6f-4f09-a1b9-f1b7860951f7")
+		)
+		(pin "1"
+			(uuid "8b551f6e-d290-435f-bd88-94d2c962ec50")
+		)
+		(pin "4"
+			(uuid "bd83f033-c7af-4563-9c31-c8c87f67609a")
+		)
+		(pin "5"
+			(uuid "9f8a046c-ca93-47b3-8ccf-578b3b7bc8e1")
+		)
+		(pin "6"
+			(uuid "6c76d65b-1da2-4950-a3b8-a2a2d0fb8462")
+		)
+		(instances
+			(project ""
+				(path "/8ad82ed4-301a-4666-924a-a0067ee03a92"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 86.36 121.92 90)
 		(unit 1)
@@ -5456,6 +5864,95 @@
 				(path "/8ad82ed4-301a-4666-924a-a0067ee03a92"
 					(reference "R3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:AUIPS1052G")
+		(at 218.44 138.43 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84145ff3-515b-4074-99a5-23d6498412fb")
+		(property "Reference" "U3"
+			(at 222.25 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTS4310GXUMA1"
+			(at 222.25 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 218.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Channel Intelligent Power Low Side Switch, 39V, 2.8A, SOIC-8"
+			(at 218.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a2159abb-95bd-43ca-8357-67cdfc2c029e")
+		)
+		(pin "7"
+			(uuid "2d7ad1eb-29b5-4559-8a04-50600d4ca98b")
+		)
+		(pin "8"
+			(uuid "197f4d61-1157-4282-a374-485d20784819")
+		)
+		(pin "2"
+			(uuid "dd097756-aa6f-4f09-a1b9-f1b7860951f8")
+		)
+		(pin "1"
+			(uuid "8b551f6e-d290-435f-bd88-94d2c962ec51")
+		)
+		(pin "4"
+			(uuid "bd83f033-c7af-4563-9c31-c8c87f67609c")
+		)
+		(pin "5"
+			(uuid "9f8a046c-ca93-47b3-8ccf-578b3b7bc8e3")
+		)
+		(pin "6"
+			(uuid "6c76d65b-1da2-4950-a3b8-a2a2d0fb8464")
+		)
+		(instances
+			(project ""
+				(path "/8ad82ed4-301a-4666-924a-a0067ee03a92"
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -5797,6 +6294,95 @@
 				(path "/8ad82ed4-301a-4666-924a-a0067ee03a92"
 					(reference "C12")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:AUIPS1052G")
+		(at 262.89 110.49 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae266ab4-43dc-46f7-9e94-929da98f5ae1")
+		(property "Reference" "U4"
+			(at 266.7 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTS4310GXUMA1"
+			(at 266.7 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 262.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Channel Intelligent Power Low Side Switch, 39V, 2.8A, SOIC-8"
+			(at 262.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4e1d27f1-9380-44f9-987a-3c26eeea11c3")
+		)
+		(pin "7"
+			(uuid "2d7ad1eb-29b5-4559-8a04-50600d4ca98c")
+		)
+		(pin "8"
+			(uuid "197f4d61-1157-4282-a374-485d2078481a")
+		)
+		(pin "2"
+			(uuid "dd097756-aa6f-4f09-a1b9-f1b7860951f9")
+		)
+		(pin "1"
+			(uuid "8b551f6e-d290-435f-bd88-94d2c962ec52")
+		)
+		(pin "4"
+			(uuid "50922f80-370f-41ff-bedf-28df411d04d3")
+		)
+		(pin "5"
+			(uuid "d390fb64-4d5c-46e3-a5c5-9d73f5309479")
+		)
+		(pin "6"
+			(uuid "dcdea545-0347-41e9-8b50-0ea1e5863a8c")
+		)
+		(instances
+			(project "coolant-controller"
+				(path "/8ad82ed4-301a-4666-924a-a0067ee03a92"
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)

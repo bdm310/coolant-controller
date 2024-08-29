@@ -23,12 +23,13 @@ Inputs:
 - Spare ~10kOhm NTC input
 
 Outputs:
-- Fan PWM
+- W204 Fan PWM
   - Open collector, 12V tolerant
-- MAP thermostat
+  - 10.53 Hz, 10% off, 15% min, 90% max
+- W204 MAP thermostat
   - ~15.2 Ohm
 - Coolant level indicator
-  - Small incandescent to ground, needs B+ to turn on
+  - Small incandescent, low side driver
 - Coolant temperature gauge
   - 1 kOhm to 10 Ohm, low side driver
 - Fuel injection computer
