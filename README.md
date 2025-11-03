@@ -16,7 +16,7 @@ General:
 Inputs:
 - Coolant temperature sensor
   - Choose to keep the fuel injection sensor on the right hand bank because it's the same across a large range of years.
-  - Measures 3.74 kOhm at 16.1 C
+  - Measures 3.74 kOhm at 16.1 C, 5V bias from ECU, appears to have ~1.83kOhm pull up in ECU.
   - ![Coolant Sensor Resistance](./coolant-sensor-resistance.PNG)
 - Coolant level sensor
   - Simple reed switch
